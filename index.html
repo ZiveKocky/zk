@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First GitHub Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4e73df, #1cc88a);
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        .card {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: white;
+            color: #4e73df;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #f8f9fc;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🚀 Hello from GitHub Pages!</h1>
+        <p>If you can see this, your GitHub Pages site is working.</p>
+        <button onclick="showMessage()">Click Me</button>
+        <p id="message"></p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").textContent = 
+                "🎉 JavaScript is working too!";
+        }
+    </script>
+</body>
+</html>
