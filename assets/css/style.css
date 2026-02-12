@@ -56,16 +56,16 @@
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
-  --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
+  --jet: rgb(255,255,0);
+  --onyx: rgb(0,255,0);
+  --eerie-black-1: rgb(255,0,0);
   --section-background: hsl(240, 2%, 80%);
   --main-background: hsl(240, 0%, 90%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
+  --vegas-gold: rgb(0,255,255)
+  --light-gray: rgb(0,0,255)
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
