@@ -59,7 +59,7 @@
   --jet: hsl(0, 0%, 22%);
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
+  --section-background: hsl(240, 2%, 90%);
   --main-background: hsl(240, 0%, 90%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
@@ -167,7 +167,7 @@ body { background: var(--main-background); }
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: var(--section-background);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -656,7 +656,7 @@ main {
 }
 
 .testimonials-modal {
-  background: var(--eerie-black-2);
+  background: var(--section-background);
   position: relative;
   padding: 15px;
   margin: 15px 12px;
@@ -883,7 +883,7 @@ main {
 }
 
 .filter-select {
-  background: var(--eerie-black-2);
+  background: var(--section-background);
   color: var(--light-gray);
   display: flex;
   justify-content: space-between;
@@ -899,7 +899,7 @@ main {
 .filter-select.active .select-icon { transform: rotate(0.5turn); }
 
 .select-list {
-  background: var(--eerie-black-2);
+  background: var(--section-background);
   position: absolute;
   top: calc(100% + 6px);
   width: 100%;
@@ -920,7 +920,7 @@ main {
 }
 
 .select-item button {
-  background: var(--eerie-black-2);
+  background: var(--section-background);
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
@@ -930,7 +930,7 @@ main {
   border-radius: 8px;
 }
 
-.select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
+.select-item button:hover { --section-background: hsl(240, 2%, 20%); }
 
 .project-list {
   display: grid;
